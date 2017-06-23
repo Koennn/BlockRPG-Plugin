@@ -1,0 +1,14 @@
+name: BlockRPG
+version: 1.1-BETA
+main: me.koenn.blockrpg.BlockRPG
+authors: [Koenn]
+depend: [KoennCore]
+
+commands:
+  setkingdom:
+    usage: /setkingdom <color>
+    description: Set the kingdom of a certain player.
+
+permissions:
+  blockrpg.log:
+    default: op
